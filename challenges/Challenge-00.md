@@ -11,7 +11,7 @@ In this challenge, you will set up the necessary prerequisites and environment t
 
 - [Setup Codespace](#setup-codespace)
 - [Access Azure OpenAI](#access-azure-openai)
-- [Setup Jupyter Notebook Environment](#setup-jupyter-notebook-environment)
+- [Jupyter Notebook Environment](#setup-jupyter-notebook-environment)
 - [Student Resources](#student-resources)
 - [Setup Azure OpenAI](#setup-azure-openai)
 - [Additional Prerequisites](#additional-common-prerequisites)
@@ -40,13 +40,13 @@ You will need to setup your codespace in order to view all the challenge descrip
 
 5. You are ready to run the Jupyter Notebook files, hooray!
 
-### Setup Jupyter Notebook Environment
+### Jupyter Notebook Environment 
 
 You will be working with Jupyter Notebooks and Python to interact with Azure OpenAI.
 
 [Jupyter Notebook](https://jupyter.org/) is an open-source web application that allows you to create and share documents containing live code, equations, visualizations, and narrative text. It's useful for a wide range of tasks, such as data cleaning and transformation, numerical simulation, statistical modeling, data visualization, and machine learning.
 
-Jupyter notebooks require an environment to run in. You will be running these in your Codespace. Navigate to the notebooks folder and click on the Jupyter Notebook you would like to start working with.
+Jupyter notebooks require an environment to run in. You will be running these in your Codespace. Navigate to the notebooks folder and click on the Jupyter Notebook you would like to start working with for each future challenge. 
 
 --------SKIP THIS PORTION IF USING CODESPACES-----------
 
