@@ -48,43 +48,6 @@ You will be working with Jupyter Notebooks and Python to interact with Azure Ope
 
 Jupyter notebooks require an environment to run in. You will be running these in your Codespace. Navigate to the notebooks folder and click on the Jupyter Notebook you would like to start working with for each future challenge. 
 
---------SKIP THIS PORTION IF USING CODESPACES-----------
-
-#### Student Resources *SKIP IF YOU ARE USING CODESPACE, THIS IS ONLY IF YOU WANT TO SETUP YOUR ENV LOCALLY OR IN THE CLOUD*
-
-Your coach will provide you with a `Resources.zip` file that contains resource files you will use to complete the challenges for this hack.  
-
-These resources include Jupyter notebooks, starter code, and sample data sources. 
-
-You should download and unpack the `Resources.zip` file there to your local workstation.  The rest of the challenges will refer to the relative paths inside the `Resources.zip` file where you can find the various resources to complete the challenges.
-
-For the event December 7 - 8, 2023, you can download the file here: [`Resources.zip`](https://aka.ms/wthopenaifundamentalsresources)
-
-#### Local Workstation Environment *SKIP IF YOU ARE USING CODESPACE, THIS IS ONLY IF YOU WANT TO SETUP YOUR ENV LOCALLY*
-
-If you plan to work on your local workstation, please ensure you have the following tools and resources before hacking:
-- [Python Installation](https://www.python.org/downloads), version at least \>= 3.6, the minimum requirement for using OpenAI's GPT-3.5-based models, such as ChatGPT.
-- Conda Installation, for project environment management and package management, version \>= conda 4.1.6. Anaconda distribution is a popular Python distribution, while Miniconda is the lightweight version of Anaconda.
-  - [Anaconda](https://docs.anaconda.com/anaconda/install) OR [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
-- Environment setup:
-  - Open Anaconda Prompt or your favourite terminal and verify Python and Conda installations using `python --version` and `conda --version`
-  - Create a project environment using Conda - `conda create --name <env_name>`
-  - Activate Conda environment - `conda activate <env_name>`
-  - Install required libraries and packages, provided in the form of a `requirements.txt` file in the `Resources/Notebooks` section of the zip folder. We recommend using pip or Conda in a virtual environment to do so. For example, you can run `pip install -r requirements.txt`
-  - Open the project in VS Code using `code .`
-  - If you are using Visual Studio Code, make sure you change your Python interpreter (CTRL+SHIFT+P) to select the project/virtual environment that you just created.
-
-For more information, see [Jupyter Notebooks in VS Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
-
-#### Cloud Environment *SKIP IF YOU ARE USING CODESPACE, THIS IS ONLY IF YOU WANT TO SETUP YOUR ENV IN THE CLOUD*
-
-If you are not interested or able to set up a Jupyter Notebook environment on your local workstation, you can set one up in the cloud with Azure Machine Learning Studio and take advantage of Azure Compute power. 
-
-For more information, see: [Run Jupyter Notebooks in your Workspace](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-run-jupyter-notebooks?view=azureml-api-2)
-
-Once you have an Azure Machine Learning Studio Workspace set up, you can upload the contents of the `/Notebooks` folder in your `Resources.zip` file to it. For more information on this, see: [How to create and manage files in your workspace](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-manage-files?view=azureml-api-2)
-
---------END SKIP SECTION---------------
 
 ### Setup Azure OpenAI
 
