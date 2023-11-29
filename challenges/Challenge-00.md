@@ -9,6 +9,7 @@ Thank you for participating in the AI Fluency Event. Before you can hack, you wi
 ## Description
 In this challenge, you will set up the necessary prerequisites and environment through Codespaces to complete the rest of the hack, including:
 
+- [Setup Codespace](#setup-codespace)
 - [Access Azure OpenAI](#access-azure-openai)
 - [Setup Jupyter Notebook Environment](#setup-jupyter-notebook-environment)
 - [Student Resources](#student-resources)
