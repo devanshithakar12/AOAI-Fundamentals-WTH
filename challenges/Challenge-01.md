@@ -5,7 +5,7 @@
 ## Prerequisites
 
 * Deploy your own AOAI models in the [AOAI portal](https://oai.azure.com/portal/)
-* Update the `sample-env.txt` file (and save as `.env`) according to your model names if you haven't already
+* Update the `.env` according to your model names if you haven't already
 
 ## Introduction
 
@@ -17,16 +17,16 @@ Model deployment for the challenge:
   - `gpt-35-turbo`
 
     
-**NOTE:** Model families currently available as of _Aug 4, 2023_ in Azure OpenAI includes GPT-3, Codex and Embeddings, GPT-4 is available for application. Please reference this link for more information: [Azure OpenAI Service models](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models).
+**NOTE:** Model families currently available as of _Nov 28, 2023_ in Azure OpenAI include GPT-3.5, Embeddings, GPT-4, GPT-4 Turbo, Whisper, and DALL-E is available for application. Please reference this link for more information: [Azure OpenAI Service models](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models).
 Some models are not available for new deployments beginning **July 6, 2023**. Deployments created prior to July 6, 2023 remain available to customers until **July 5, 2024**. You may revise the environment file and the model you deploy accordingly. Please refer to the following link for more details: [Azure OpenAI Service legacy models](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/legacy-models)
-- Add required credentials of Azure resources in the ``.env`` file. Please feel free to make any modifications as needed and then rename the ".env-sample" file to ".env".
+- Add required credentials of Azure resources in the ``.env`` file. Please feel free to make any modifications as needed.
   
 Questions you should be able to answer by the end of this challenge:
 - What is the iterative prompting principle?
 - Which hyperparameters could you tune to make the response more diverse in language?
 - What prompt engineering technique could you use to help model complete hard tasks like math problems?
 
-You will run the following Jupyter notebook for this challenge. You can find it in the `/Notebooks` folder of `Resources.zip` file. 
+You will run the following Jupyter notebook for this challenge. They can be found in your Codespace under the notebooks folder. If you are working locally or in the Cloud, you can find it in the `/Notebooks` folder of `Resources.zip` file. 
 - `CH-01-PromptEngineering.ipynb`
 
 Sections in this Challenge:

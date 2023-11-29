@@ -8,7 +8,7 @@
 * Azure Cognitive Search resource for indexing and retrieving relevant information
 * Azure OpenAI service for Generative AI Models and Embedding Models
 * Add required credentials of above resources in .env file
-* Install the required libraries in the `requirements.txt` file via ```pip install -r requirements.txt ```
+* Install the required libraries in the `requirements.txt` file via ```pip install -r requirements.txt ``` if you have not already.
 
 ## Introduction
 
@@ -28,7 +28,7 @@ Questions you should be able to answer by the end of the challenge:
 - What do embedding help accomplish?
 
 
-You will run the following three Jupyter notebooks for this challenge. You can find them in the `/Notebooks` folder of `Resources.zip` file.
+You will run the following three Jupyter notebooks for this challenge. They can be found in your Codespace under the notebooks folder. If you are working locally or in the Cloud, you can find them in the `/Notebooks` folder of `Resources.zip` file.
 
 * `CH-03-A-Grounding.ipynb`
 * `CH-03-B-Chunking.ipynb`
