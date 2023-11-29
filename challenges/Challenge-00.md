@@ -114,9 +114,9 @@ You might not need all of them for this hack you are participating in. However, 
 To complete this challenge successfully, you should be able to:
 
 - Verify that you are able to see the following in your Codespace:
-  - The challenges folder with all five challenge markdown files. These .md files will contain descriptions of the challenges. Remember to open these by right clicking on the .md file and selecting "Open Preview". Alternatively, you can also do CTRL + SHIFT + V on your Windows machine.
+  - The challenges folder with all four challenge markdown files. These .md files will contain descriptions of the challenges. Remember to open these by right clicking on the .md file and selecting "Open Preview". Alternatively, you can also do CTRL + SHIFT + V on your Windows machine.
   - The data folder with structured and unstructured folders along with the Automobile.csv and CH3-data.pdf files. This is the data the challenges will be working with.
-  - The notebooks folder with eight files. These are the Jupyter Notebook files you will run in the next few challenges.
+  - The notebooks folder with seven files. These are the Jupyter Notebook files you will run in the next few challenges.
   - The .env file where you will store all your credentials.
   - The requirements.txt file which has all the libraries you will need in order to run the Jupyter Notebooks.
 - Verify that you have Python and Conda installed
