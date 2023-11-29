@@ -9,12 +9,11 @@ Thank you for participating in the AI Fluency Event. Before you can hack, you wi
 ## Description
 In this challenge, you will set up the necessary prerequisites and environment through Codespaces to complete the rest of the hack, including:
 
-- [Student Resources](#student-resources)
 - [Access Azure OpenAI](#access-azure-openai)
 - [Setup Jupyter Notebook Environment](#setup-jupyter-notebook-environment)
+- [Student Resources](#student-resources)
 - [Setup Azure OpenAI](#setup-azure-openai)
 - [Additional Prerequisites](#additional-common-prerequisites)
-
 
 
 ### Access Azure OpenAI 
@@ -25,6 +24,20 @@ You will need an Azure subscription to complete this hack. If you don't have one
 Before you can start the hack, you will also need to apply for access to Azure OpenAI as it is currently in high-demand.
 
 An Azure subscription is necessary to [apply for Azure OpenAI access](https://aka.ms/oaiapply). We recommend applying as early as possible as processing times will vary, sometimes taking more than several business days.
+
+### Setup Codespace
+
+You will need to setup your codespace in order to view all the challenge descriptions, Jupyter Notebook files, and other needed files for this event. Here are the steps you will need to follow:
+
+1. Your coach will provide you with the Github Repo for this hack. Please open this link and sign in with your personal Github account. Note: Make sure you do not sign in with your enterprise managed Github account.
+
+2. Once you are signed in, click on the green "Code" button. Then click on "Codespaces". You should be able to click on the three dots. Then press "+ New with options". You can keep the default config and just ensure that the Machine Type is 2-core. Finally, hit "Create codespace". 
+
+3. You should be able to view your codespace. Enter in the following command in the terminal: `pip install -r requirements.txt`. This should successfully install all the libraries you need.
+
+4. Fill out your .env file with the Azure resource credentials. You can fill the values in this file as you go through the challenges.
+
+5. You are ready to run the Jupyter Notebook files, hooray!
 
 ### Setup Jupyter Notebook Environment
 
@@ -100,7 +113,7 @@ You might not need all of them for this hack you are participating in. However, 
 To complete this challenge successfully, you should be able to:
 
 - Verify that you are able to see the following in your Codespace:
-  - The challenges folder with all five challenge markdown files. These .md files will contain descriptions of the challenges.
+  - The challenges folder with all five challenge markdown files. These .md files will contain descriptions of the challenges. Remember to open these by right clicking on the .md file and selecting "Open Preview". Alternatively, you can also do CTRL + SHIFT + V on your Windows machine.
   - The data folder with structured and unstructured folders along with the Automobile.csv and CH3-data.pdf files. This is the data the challenges will be working with.
   - The notebooks folder with eight files. These are the Jupyter Notebook files you will run in the next few challenges.
   - The .env file where you will store all your credentials.
