@@ -13,10 +13,9 @@ In a world where the availability and development of models are always changing,
 
 ## Description
 Model deployment for the challenge:
-- Deploy the following models in your Azure OpenAI resource. 
+- Deploy the following models in your Azure OpenAI resource using these names. 
   - `gpt-4`
   - `gpt-35-turbo`
-
 
 **If you do not have gpt-4 access, you can still go through this challenge conceptually to understand how to best pick a model from the ones you have deployed as well as the ones in the model catalog.**
   
