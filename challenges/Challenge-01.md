@@ -14,10 +14,11 @@ As LLMs grow in popularity and use around the world, the need to manage and moni
 ## Description
 Model deployment for the challenge:
 - Deploy the following models in your Azure OpenAI resource. 
+  - `gpt-4`
   - `gpt-35-turbo`
 
     
-**NOTE:** Model families currently available as of _Nov 28, 2023_ in Azure OpenAI include GPT-3.5, Embeddings, GPT-4, GPT-4 Turbo, Whisper, and DALL-E is available for application. Please reference this link for more information: [Azure OpenAI Service models](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models).
+**NOTE:** For model families currently available, please reference this link for more information: [Azure OpenAI Service models](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models).
 Some models are not available for new deployments beginning **July 6, 2023**. Deployments created prior to July 6, 2023 remain available to customers until **July 5, 2024**. You may revise the environment file and the model you deploy accordingly. Please refer to the following link for more details: [Azure OpenAI Service legacy models](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/legacy-models)
 - Add required credentials of Azure resources in the ``.env`` file. Please feel free to make any modifications as needed.
   
