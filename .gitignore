@@ -2,5 +2,3 @@ notebooks/data
 notebooks/cifar_net.pth
 .ipynb_checkpoints/
 .env
-.env
-.env
