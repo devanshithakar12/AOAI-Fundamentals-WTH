@@ -55,6 +55,7 @@ Once you have set up a Jupyter notebook environment, you create an Azure OpenAI 
 
 - [Create an Azure OpenAI Resource](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/create-resource?pivots=web-portal) 
 - Deploy the following models in your Azure OpenAI resource.
+  - `gpt-4`
   - `gpt-35-turbo`
   - `text-embedding-ada-002`
     - **NOTE:** A couple of challenges may require a few additional prerequisites so be sure to check those out in the respective challenges. 
